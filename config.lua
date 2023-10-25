@@ -7,6 +7,8 @@ Config.command = "steamreward"
 Config.serverName = "YOUR_SERVER_NAME" -- this is the name of your server, it will be checked if the player has it in his steam name
 
 
+Config.dailyReward = true -- true = player can claim the reward every 24 hours, false = player can claim the reward every script restart
+
 Config.reward = {
     type = "money", -- or item / weapon
     value = 1000, -- here you can set the amount of money or the item/weapon name
